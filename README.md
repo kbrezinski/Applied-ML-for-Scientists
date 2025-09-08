@@ -1,19 +1,10 @@
 # Applied Machine Learning for Scientists
 
-[![Code tests Windows](https://img.shields.io/github/actions/workflow/status/kbrezinski/Applied-ML-for-Scientists
-/ci.yml?branch=main&label=Code%20tests%20%E2%80%94%20Windows&logo=windows)](https://github.com/kbrezinski/Applied-ML-for-Scientists/actions/workflows/ci.yml)
+[![Code tests Windows](https://github.com/kbrezinski/Applied-ML-for-Scientists/actions/workflows/tests-windows.yml/badge.svg)](https://github.com/kbrezinski/Applied-ML-for-Scientists/actions/workflows/tests-windows.yml)
 
 This repository contains lecture materials, notebooks, and resources for the graduate-level course **Applied Machine Learning for Scientists**.  
 The course emphasizes **practical ML workflows**: framing scientific problems, preparing data, building and evaluating models, deploying systems, and monitoring them in real-world contexts.  
 We also integrate **Large Language Models (LLMs)** for coding, editing, and scientific writing support.
-
----
-
-## ✅ Build Status
-
-
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen?logo=windows)](https://github.com/kbrezinski/Applied-ML-for-Scientists/actions)
-
 
 ---
 
