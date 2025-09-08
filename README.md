@@ -34,10 +34,12 @@ git clone https://github.com/YOUR_USERNAME/applied-ml-scientists.git
 cd applied-ml-scientists
 ```
 
-### 2. Set up a virtual environment (recommended)
+
+### 2. Set up a virtual environment with [uv](https://github.com/astral-sh/uv) (recommended)
+Using **Python 3.12+**:
 ```bash
-python -m venv venv
-source venv/bin/activate   # On Windows use venv\Scripts\activate
+uv venv venv
+source venv/bin/activate # On Windows use venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
