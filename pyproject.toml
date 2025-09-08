@@ -45,8 +45,7 @@ classifiers = [
 
 # Optional but nice to have for your repo homepage/issues/docs
 [project.urls]
-Homepage = "https://github.com/kbrezinski/Applied-ML-for-Scientists
-"
+Homepage = "https://github.com/kbrezinski/Applied-ML-for-Scientists"
 Issues = "https://github.com/kbrezinski/Applied-ML-for-Scientists
 /issues"
 
