@@ -1,11 +1,23 @@
 # Applied Machine Learning for Scientists
 
+[![Code tests Windows](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/Applied-ML-for-Scientists
+/ci.yml?branch=main&label=Code%20tests%20%E2%80%94%20Windows&logo=windows)](https://github.com/kbrezinski/Applied-ML-for-Scientists/actions/workflows/ci.yml)
+
 This repository contains lecture materials, notebooks, and resources for the graduate-level course **Applied Machine Learning for Scientists**.  
 The course emphasizes **practical ML workflows**: framing scientific problems, preparing data, building and evaluating models, deploying systems, and monitoring them in real-world contexts.  
 We also integrate **Large Language Models (LLMs)** for coding, editing, and scientific writing support.
 
 ---
 
+&nbsp;
+## ✅ Build Status
+
+
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen?logo=windows)](https://github.com/YOUR_USERNAME/applied-ml-scientists/actions)
+
+
+---
+&nbsp;
 ## 📖 Course Outline
 
 | Week | Topic | Materials |
@@ -27,26 +39,26 @@ We also integrate **Large Language Models (LLMs)** for coding, editing, and scie
 ---
 
 ## 🚀 Getting Started
-
+&nbsp;
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/applied-ml-scientists.git
 cd applied-ml-scientists
 ```
 
-
+&nbsp;
 ### 2. Set up a virtual environment with [uv](https://github.com/astral-sh/uv) (recommended)
 Using **Python 3.12+**:
 ```bash
 uv venv venv
 source venv/bin/activate # On Windows use venv\Scripts\activate
 ```
-
+&nbsp;
 ### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-
+&nbsp;
 ### 4. Launch Jupyter Notebook
 ```bash
 jupyter notebook
@@ -55,7 +67,7 @@ jupyter notebook
 Or, open the notebooks directly in **[Google Colab](https://colab.research.google.com/)** by uploading them.
 
 ---
-
+&nbsp;
 ## 🛠 Tools Used
 - **Python 3.9+**
 - [Jupyter Notebooks](https://jupyter.org/) / [Google Colab](https://colab.research.google.com/)  
@@ -64,13 +76,22 @@ Or, open the notebooks directly in **[Google Colab](https://colab.research.googl
 - [PyTorch](https://pytorch.org/)  
 
 ---
-
+&nbsp;
 ## 📚 References
 - *Machine Learning with PyTorch and Scikit-Learn* — Sebastian Raschka  
 - *Designing Machine Learning Systems* — Chip Huyen  
 - [Made With ML](https://madewithml.com/) modules  
 
----
-
-## ✨ License
-MIT License — feel free to use and adapt for your own teaching.
+&nbsp;
+## ✨ BibTeX entry:
+```
+@misc{appliedmlscientists2025,
+  author       = {Your Name},
+  title        = {Applied Machine Learning for Scientists},
+  year         = {2025},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/YOUR_USERNAME/applied-ml-scientists}},
+  commit       = {<commit-hash>}
+}
+```
