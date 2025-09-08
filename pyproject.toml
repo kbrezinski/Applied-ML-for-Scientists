@@ -9,6 +9,7 @@ description = "Applied Machine Learning for Scientists — course materials and 
 readme = "README.md"
 
 authors = [
+
   { name = "Kenneth Brezinski" }
 ]
 
