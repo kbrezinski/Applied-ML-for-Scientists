@@ -9,15 +9,14 @@ We also integrate **Large Language Models (LLMs)** for coding, editing, and scie
 
 ---
 
-&nbsp;
 ## ✅ Build Status
 
 
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen?logo=windows)](https://github.com/YOUR_USERNAME/applied-ml-scientists/actions)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen?logo=windows)](https://github.com/kbrezinski/Applied-ML-for-Scientists/actions)
 
 
 ---
-&nbsp;
+
 ## 📖 Course Outline
 
 | Week | Topic | Materials |
@@ -39,26 +38,26 @@ We also integrate **Large Language Models (LLMs)** for coding, editing, and scie
 ---
 
 ## 🚀 Getting Started
-&nbsp;
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/applied-ml-scientists.git
 cd applied-ml-scientists
 ```
 
-&nbsp;
+
 ### 2. Set up a virtual environment with [uv](https://github.com/astral-sh/uv) (recommended)
 Using **Python 3.12+**:
 ```bash
 uv venv venv
 source venv/bin/activate # On Windows use venv\Scripts\activate
 ```
-&nbsp;
+
 ### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-&nbsp;
+
 ### 4. Launch Jupyter Notebook
 ```bash
 jupyter notebook
@@ -67,7 +66,7 @@ jupyter notebook
 Or, open the notebooks directly in **[Google Colab](https://colab.research.google.com/)** by uploading them.
 
 ---
-&nbsp;
+
 ## 🛠 Tools Used
 - **Python 3.9+**
 - [Jupyter Notebooks](https://jupyter.org/) / [Google Colab](https://colab.research.google.com/)  
@@ -76,22 +75,23 @@ Or, open the notebooks directly in **[Google Colab](https://colab.research.googl
 - [PyTorch](https://pytorch.org/)  
 
 ---
-&nbsp;
+
 ## 📚 References
 - *Machine Learning with PyTorch and Scikit-Learn* — Sebastian Raschka  
 - *Designing Machine Learning Systems* — Chip Huyen  
 - [Made With ML](https://madewithml.com/) modules  
 
-&nbsp;
+---
+
 ## ✨ BibTeX entry:
 ```
-@misc{appliedmlscientists2025,
-  author       = {Your Name},
+@misc{brezinski2025,
+  author       = {Kenneth Brezinski},
   title        = {Applied Machine Learning for Scientists},
   year         = {2025},
   publisher    = {GitHub},
   journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/YOUR_USERNAME/applied-ml-scientists}},
+  howpublished = {\url{https://github.com/kbrezinski/Applied-ML-for-Scientists}},
   commit       = {<commit-hash>}
 }
 ```
