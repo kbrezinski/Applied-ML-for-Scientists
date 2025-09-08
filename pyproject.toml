@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Applied_Ml_For_Scientists"
+version = "0.1.0"
+description = "Applied Machine Learning for Scientists — course materials and utilities"
+readme = "README.md"
+
+authors = [
+  { name = "Kenneth Brezinski" }
+]
+
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+
+# Core stack for the course
+dependencies = [
+    # notebooks + IO
+    "jupyterlab>=4.0",
+    "nbformat>=5.10",
+
+    # data + viz
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+
+    # ML
+    "scikit-learn>=1.4",
+    # PyTorch (CPU wheels work on all OSes). Pin more tightly if you want reproducibility.
+    "torch>=2.3",
+    # optional tokenizer utilities for LLM demos
+    "tokenizers>=0.21",
+]
+
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent"
+]
+
+# Optional but nice to have for your repo homepage/issues/docs
+[project.urls]
+Homepage = "https://github.com/kbrezinski/Applied-ML-for-Scientists
+"
+Issues = "https://github.com/kbrezinski/Applied-ML-for-Scientists
+/issues"
+
+# If you have any importable Python package (e.g., utils for assignments), set its folder name here.
+# If this repo is mainly notebooks, you can keep it as-is and add a minimal package later (e.g., src/ams_utils).
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["Applied_ML_For_Scientists*"]
+
+# ---- uv-specific groups (handy for local/dev installs) ----
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.4",
+    "pytest-ruff>=0.5",
+    "twine>=6.1",
+    "build>=1.2",
+    # optional for LLM demos in class; pin if you want
+    "transformers>=4.42",
+]
+
+# If you later split into a multi-package workspace, list members here.
+[tool.uv.workspace]
+members = [
+    ".",
+]
+
+# If you keep internal packages in this workspace in the future, you can add uv sources like:
+# [tool.uv.sources]
+# ams-utils = { workspace = true }
