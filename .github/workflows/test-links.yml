@@ -34,5 +34,5 @@ jobs:
           --check-links-ignore "https://openai.com/*" \
           --check-links-ignore "https://code.visualstudio.com/*" \
           --check-links-ignore "https://kbrezinski.github.io/*" \
-          --check-links-ignore " https://madewithml.com/*" \
+          --check-links-ignore "https://madewithml.com/*" \
  
