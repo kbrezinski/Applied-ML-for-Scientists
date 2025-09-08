@@ -46,8 +46,7 @@ classifiers = [
 # Optional but nice to have for your repo homepage/issues/docs
 [project.urls]
 Homepage = "https://github.com/kbrezinski/Applied-ML-for-Scientists"
-Issues = "https://github.com/kbrezinski/Applied-ML-for-Scientists
-/issues"
+Issues = "https://github.com/kbrezinski/Applied-ML-for-Scientists/issues"
 
 # If you have any importable Python package (e.g., utils for assignments), set its folder name here.
 # If this repo is mainly notebooks, you can keep it as-is and add a minimal package later (e.g., src/ams_utils).
